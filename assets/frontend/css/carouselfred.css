@@ -1,0 +1,77 @@
+    
+/********************************************************
+    *-*-*-* CAROUSEL *-*-*-*
+*********************************************************/
+
+.caroufredsel_wrapper { height: 354px !important; }
+.carousel_wrap { position: relative; margin-left: 0px; width: 96.5% }
+
+
+#carousel-wrapper { 
+	position: relative; 
+	background: #000000; 
+	border-radius: 4px;
+}
+
+.carousal-bottom{
+ 	background: #ffffff; 
+ 	border: 1px solid#dddddd;
+	height: 98px;
+	margin-bottom: 23px;
+	margin-top: 12px;
+	border-radius: 4px;
+}
+#carousel_two { position: relative; }
+
+#carousel-wrapper .caroufredsel_wrapper { height: 311px !important; }
+
+#carousel_two > span { height: 311px !important; }
+#carousel_two > span img {  width: 100%; height: 100%;}
+
+.carousel_wrap .next { display: block; width: 55px; height: 108px; top: 139px; position: absolute; right: -16px; background: url("../images/next.png") no-repeat; }
+
+.carousel_wrap .prev { display: block; width: 55px; height: 108px; top: 139px; position: absolute; left: -16px; background: url("../images/prev.png") no-repeat; }
+
+#thumbs-wrapper { width: 100%; margin-bottom: 30px; position: relative; }
+
+#thumbs { overflow: hidden; width: 300px; height: 300px; width: 300px; height: 300px; }
+
+#carousel_two span, #carousel_two img, #thumbs a, #thumbs img { display: block; float: left; }
+
+#carousel_two span, #carousel_two a, #thumbs span { position: relative; }
+
+#thumbs img { border: none; width: 100%; position: absolute; top: 0; left: 0; }
+
+#carousel_two img { border: none; position: absolute; top: 0; left: 0; }
+
+#carousel_two img.glare, img.glare { width: 102%; height: auto; }
+
+
+#thumbs-wrapper .caroufredsel_wrapper { margin: 0px !important; height: 112px !important; line-height: 112px; }
+
+#thumbs a { position: relative;}
+
+#thumbs { padding: 12px 69px 0px; height: 377px !important; }
+
+#thumbs a {  float: left; width:97px !important; border-radius: 8px; height: 74px !important; margin: 0 10px; overflow: hidden;}
+
+#thumbs a img { height: 100%;  border-radius: 8px;}
+
+#prev { display: block; width: 61px; height: 112px; position: absolute; top: 0px;  display: block !important;  background: url("../images/crosal-left.png") no-repeat; background-size: 100% 100%; }
+
+#next { display: block; width: 61px; height: 112px; position: absolute; top: 0px; right: -1px; display: block !important;  background: url("../images/crosal-right.png") no-repeat;  background-size: 100% 100%;}
+
+#prev { background-position: 0 0; left: 0px; }
+
+
+#prev.disabled, #next.disabled { display: block !important; }
+
+#donate-spacer { height: 100%; }
+
+#donate { border-top: 1px solid #999; width: 750px; padding: 50px 75px; margin: 0 auto; overflow: hidden; }
+
+#donate p, #donate form { margin: 0; float: left; }
+
+#donate p { width: 650px; }
+
+#donate form { width: 100px; }
